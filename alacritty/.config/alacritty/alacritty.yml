@@ -3,7 +3,6 @@
 colors:
   # Default colors
   primary:
-    # background: "#232731"
     background: "#1f2227"
     foreground: "#abb2bf"
 
@@ -70,6 +69,7 @@ font:
   glyph_offset:
     x: 0
     y: 0
+
 window:
   padding:
     x: 2
@@ -98,6 +98,3 @@ key_bindings:
   - { key: Key0, mods: Control, action: ResetFontSize }
   - { key: Equals, mods: Control, action: IncreaseFontSize }
   - { key: Minus, mods: Control, action: DecreaseFontSize }
-  # - { key: Add, mods: Control, action: IncreaseFontSize }
-  # - { key: Subtract, mods: Control, action: DecreaseFontSize }
-  # - { key: N, mods: Control, action: SpawnNewInstance }

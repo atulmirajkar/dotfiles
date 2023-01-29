@@ -9,6 +9,7 @@ export PATH="$HOME/.local/bin":$PATH
 export MANPAGER='nvim +Man!'
 export MANWIDTH=999
 export PATH="$HOME/.local/share/neovim/bin":$PATH
+export PATH="$HOME/work/appimage":$PATH
 export XDG_CURRENT_DESKTOP="Wayland"
 eval "$(zoxide init zsh)"
 
