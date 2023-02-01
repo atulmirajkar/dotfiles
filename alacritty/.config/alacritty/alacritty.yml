@@ -70,19 +70,20 @@ font:
     x: 0
     y: 0
 
+scrolling:
+#   # Maximum number of lines in the scrollback buffer.
+#   # Specifying '0' will disable scrolling.
+  history: 10000
+  #   # Number of lines the viewport will move for every line scrolled when
+  #   # scrollback is enabled (history > 0).
+  #multiplier: 10
+  
 window:
   padding:
     x: 2
     y: 2
-  # scrolling:
-  #   # Maximum number of lines in the scrollback buffer.
-  #   # Specifying '0' will disable scrolling.
-  history: 10000
-  #   # Number of lines the viewport will move for every line scrolled when
-  #   # scrollback is enabled (history > 0).
-  #   multiplier: 10
 
-# Allow terminal applications to change Alacritty's window title.
+  # Allow terminal applications to change Alacritty's window title.
   dynamic_title: true
 
   # # If `true`, bold text is drawn using the bright color variants.
@@ -98,3 +99,5 @@ key_bindings:
   - { key: Key0, mods: Control, action: ResetFontSize }
   - { key: Equals, mods: Control, action: IncreaseFontSize }
   - { key: Minus, mods: Control, action: DecreaseFontSize }
+  - { key: N, mods: Super|Shift, action: SpawnNewInstance }
+  - { key: LBracket, mods: Control, action: ToggleViMode }
