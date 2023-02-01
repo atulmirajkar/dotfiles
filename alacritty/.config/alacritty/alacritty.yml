@@ -100,4 +100,4 @@ key_bindings:
   - { key: Equals, mods: Control, action: IncreaseFontSize }
   - { key: Minus, mods: Control, action: DecreaseFontSize }
   - { key: N, mods: Super|Shift, action: SpawnNewInstance }
-  - { key: LBracket, mods: Control, action: ToggleViMode }
+  #- { key: LBracket, mods: Control, action: ToggleViMode } #conflicts with vim normal mode
