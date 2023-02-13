@@ -6,4 +6,4 @@ ZSH_THEME="robbyrussell"
 zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 plugins=(git vi-mode zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
-
+eval "$(zoxide init zsh)"
