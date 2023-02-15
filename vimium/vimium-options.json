@@ -1,0 +1,46 @@
+{
+  "settingsVersion": "1.67.4",
+  "exclusionRules": [
+    {
+      "pattern": "https?://dotnetfiddle.net/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://ideone.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://cdpn.io/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://atulmirajkar-sstable-7vxvgpwjcr666.github.dev/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://learngitbranching.js.org/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://monkeytype.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "map J nextTab\nmap K previousTab",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "google.com",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "g: https://www.google.com/search?q=%s Google\nqan: https://emc2summary/GetSummaryReport.ashx/TRACK/ZQN/%S\nxds: https://emc2summary/GetSummaryReport.ashx/TRACK/XDS/%S\ndlg: http://emc2summary/GetSummaryReport.ashx/TRACK/DLG/%S\nprj: http://emc2summary/GetSummaryReport.ashx/TRACK/PRJ/%s\nserver: https://codesearch.epic.com/Default.aspx?view=search/routine#a=%s&versionid=10\nclient: https://codesearch.epic.com/default.aspx?view=search/client#a=%s&versionid=2000\ngur: https://guru/Search.aspx?search=%s&noRedirect=1&searchType=All\nyt: https://www.youtube.com/results?search_query=%s&page={startPage?}&utm_source=opensearch\ngm: https://www.google.com/maps/search/%s?hl=en&source=opensearch\ncht.sh: https://cheat.sh/%s\ncheat.sh: https://cheat.sh/%s\ngh: https://github.com/search?q=%s GitHub\nhome: https://www.google.com/maps/dir/home/%s",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
