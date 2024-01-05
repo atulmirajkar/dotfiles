@@ -6,6 +6,8 @@ export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/nvim-linux64/bin:$PATH
 #go installation
 export PATH=$PATH:/usr/local/go/bin
+#go external modules are installed in $GOPATH/bin. $GOPAth = $HOME/go/bin
+export PATH=$PATH:$HOME/go/bin
 # required for mac
 #export PATH=/opt/homebrew/bin:$PATH
 #binaries from windows
@@ -40,3 +42,9 @@ alias nuget="mono /usr/local/bin/nuget.exe"
 alias vim=nvim
 alias mvim="NVIM_APPNAME=mynvim nvim"
 alias ls=exa
+
+### Epic Go environment setup
+export GOPRIVATE="go.eccp.epic.com"
+export GOPROXY="goproxy.nebula.k8s.epic.com"
+export GONOPROXY=none
+
