@@ -93,6 +93,8 @@ window:
   semantic_escape_chars: ',│`|:"'' ()[]{}<>'
   save_to_clipboard: true
   live_config_reload: true
+  # make option key work as alt - this is to make <M- commands work in neovim
+  option_as_alt: "Both"
 key_bindings:
   - { key: V, mods: Control|Shift, action: Paste }
   - { key: C, mods: Control|Shift, action: Copy }
