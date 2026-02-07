@@ -31,7 +31,17 @@ alias lvim="NVIM_APPNAME=lazyvim nvim"
 alias mvim="NVIM_APPNAME=myvim nvim"
 alias kvim="NVIM_APPNAME=kickvim nvim"
 alias ls=exa
-alias ghce='gh copilot explain'
-alias ghcs='gh copilot suggest'
+alias pplx='llm -m sonar'
+alias cc='cocli'
 
+# fzf integration
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# yazi 
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
