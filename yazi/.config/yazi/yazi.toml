@@ -1,0 +1,13 @@
+[opener]
+edit = [
+    { run = 'mvim "$@"', block = true, desc = "Edit with My Neovim" }
+]
+
+[open]
+rules = [
+    { name = "*.txt", use = "edit" },
+    { mime = "text/*", use = "edit" },
+    { mime = "*.md", use = "edit" },
+    { mime = "*.json", use = "edit" }
+]
+
